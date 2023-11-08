@@ -1,9 +1,12 @@
 {
+  "homepage":"https://shankRaaj.github.io/react_cart",
   "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,9 +15,9 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
-    "express": "^4.18.1",
+    "express": "^4.18.2",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.6.4",
+    "mongoose": "^6.12.1",
     "nodemon": "^2.0.20"
   }
 }
